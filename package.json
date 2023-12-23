@@ -1,0 +1,23 @@
+{
+  "name": "adventjs-2023",
+  "version": "1.0.0",
+  "description": "Retos del Calendario de AdventJS, organizado por Midudev",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevDesiree/AdventJS-2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevDesiree/AdventJS-2023/issues"
+  },
+  "homepage": "https://github.com/DevDesiree/AdventJS-2023#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
