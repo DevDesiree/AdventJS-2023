@@ -15,7 +15,7 @@ Además, estoy aprovechando estos retos como parte de mi aprendizaje en el bootc
 | Día | Título                             | Dificultad | Solución           |
 | --- | ---------------------------------- | ---------- | ------------------ |
 | 01  | 🎁 ¡Primer regalo repetido!        | 🟢 Fácil   | [Ver solución](./Retos/Reto01/) |
-| 02  | 🏭 Ponemos en marcha la fábrica    | 🟢 Fácil   | []() |
+| 02  | 🏭 Ponemos en marcha la fábrica    | 🟢 Fácil   | [Ver solución](./Retos/Reto02/) |
 | 03  | 😏 El elfo travieso                | 🟢 Fácil   | []() |
 | 04  | 😵‍💫 Dale la vuelta a los paréntesis | 🟡 Media   | []() |
 | 05  | 🛷 El CyberTruck de Santa          | 🟡 Media   | []() |
