@@ -39,13 +39,56 @@ manufacture(gifts, materials) // []
 
 - <img src="https://skillicons.dev/icons?i=js" width="10px" alt="JS" /> **Código JS**
 
-```
+```js
+function manufacture(gifts, materials) {
 
+    const result = [];
 
+    for (let i = 0; i < gifts.length; i++) {
+        const gift = gifts[i];
+        let canManufacture = true; 
+
+        for (let j = 0; j < gift.length; j++) { 
+            if (!materials.includes(gift[j])) {
+                canManufacture = false;
+                break;
+            }
+        }
+
+        if (canManufacture) {
+            result.push(gift);
+        }
+    }
+    return result;
+}
 ```
 
 - <img src="https://skillicons.dev/icons?i=jest" width="12px" alt="Testing con Jest" /> **Testing Jest**
 
-```
+```js
+describe("Manufacture Function", () => {
+    test('Devuelve ["tren", "oso"] porque sus caracteres se encuentran en la    palabra "tronesa"', () => {
+        const gifts = ['tren', 'oso', 'pelota'];
+        const materials = 'tronesa';
+        const result = manufacture(gifts, materials);
+        const toBe = ["tren", "oso"];
+        expect(result).toStrictEqual(toBe);
+    });
 
+    test('Devuelve ["puzzle"] porque sus caracteres se encuentran en la palabra "jlepuz"', () => {
+        const gifts = ['juego', 'puzzle'];
+        const materials = 'jlepuz';
+        const result = manufacture(gifts, materials);
+        const toBe = ["puzzle"];
+        expect(result).toStrictEqual(toBe);
+    });
+
+    test('Devuelve [] porque sus caracteres NO se encuentran en la palabra "psli"', () => {
+        const gifts = ['libro', 'ps5'];
+        const materials = 'psli';
+        const result = manufacture(gifts, materials);
+        const toBe = [];
+        expect(result).toStrictEqual(toBe);
+    });
+});
 ```
