@@ -57,7 +57,7 @@ function findFirstRepeated(giftIds) {
 ```
 
 - <img src="https://skillicons.dev/icons?i=jest" width="12px" alt="Testing con Jest" /> **Testing Jest**
-
+    - **Para ejecutar este test, en consola, escribe: ```npm run test:reto01```**
 ```
 test('findFirstRepeated retorna el primer numero repetido del ejemplo 1', () => {
     const giftIds = [2, 1, 3, 5, 3, 2];

@@ -64,7 +64,7 @@ function manufacture(gifts, materials) {
 ```
 
 - <img src="https://skillicons.dev/icons?i=jest" width="12px" alt="Testing con Jest" /> **Testing Jest**
-
+    - **Para ejecutar este test, en consola, escribe: ```npm run test:reto02```**
 ```js
 describe("Manufacture Function", () => {
     test('Devuelve ["tren", "oso"] porque sus caracteres se encuentran en la    palabra "tronesa"', () => {
